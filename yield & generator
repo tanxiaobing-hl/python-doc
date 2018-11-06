@@ -58,6 +58,8 @@
  The generator is considered empty once the function runs, but does not hit yield anymore. It can be because the loop had come 
  to an end, or because you do not satisfy an "if/else" anymore.
  
+ 2. 在Python中，所谓的循环loop，说白也就是调用__next__()，处理StopIteration异常。 for/while等尽是如此。
+ 
  Reference:
   https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do 
   
